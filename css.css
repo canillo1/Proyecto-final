@@ -2,7 +2,7 @@ html{
     background-color: rgb(70, 131, 99);
 }
 header{
-    background-color: rgb(89, 132, 102);
+    background-color: rgb(70, 132, 102);
     font-family: 'Times New Roman', Times, serif;
     font-size:170% ;
     font-weight: 99%;
@@ -42,18 +42,46 @@ nav>li>ul:hover{
     cursor: default;
     font-size: 170%;
 }
-main>div#pizza1{
-    border: 2px solid rgb(86, 137, 102);
-    background-color: white;
+main>h1{color: white;
+text-align: center;}
+main>div#piza1{
+    color: white;
+    border-radius: 23%;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    animation-duration: 10s;
+    animation-name: moverse;
+}
+@keyframes moverse {
+    from{ margin-left 0%
+    } to{
+        margin-left:900px ;
+    }
+}
+@-moz-keyframes
+main>div#piza1>div#primero{
+    justify-content: center;
+    border: 2px solid white;
+    font-size: 160%;
+    background-color: bisque;
+}
+main>div#piza1>div#segundo{
+    justify-content: center;
+    border: 2px solid white;
+    font-size: 160%;
+    background-color: bisque;
 }
 footer{
     padding: 6px; 
     position: fixed;
-    background-color: rgb(89, 132, 102);
+    background-color: hwb(86,137,102);
     color: white;
-    width: 99dvw;
+    width: 98%;
     justify-content: center;
     bottom: 0%  ;
+    left: 1%;
+    height: 62px;
 
 }
 li#footer{
