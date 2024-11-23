@@ -1,0 +1,82 @@
+html{
+    background-color: rgb(70, 131, 99);
+}
+header{
+    background-color: rgb(89, 132, 102);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:170% ;
+    font-weight: 99%;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+header>quote{font-style: italic;}
+nav{
+    background-color: whitesmoke;
+    position: fixed;
+    top:14%;
+    right: 0%;
+    width: 100%;
+}
+nav>li{
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    display:flex ;
+    justify-content: center;
+}
+nav>li>ul{
+    margin:1%;
+    padding: 1%;
+    font-weight: 400;
+}
+nav>li>ul:hover{
+    background-color: rgb(70,137,102);
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    cursor: default;
+    font-size: 170%;
+}
+main>div#pizza1{
+    border: 2px solid rgb(86, 137, 102);
+    background-color: white;
+}
+footer{
+    padding: 6px; 
+    position: fixed;
+    background-color: rgb(89, 132, 102);
+    color: white;
+    width: 99dvw;
+    justify-content: center;
+    bottom: 0%  ;
+
+}
+li#footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+#copiright{
+    font-size: small;
+    text-align: left;
+}
+
+#fondo{
+    display: flex;
+    text-align: center;
+}
+main{
+    position: relative;
+    top:400px;
+}
+
+#abajo_delecha{
+    font-style: italic;
+    font-size: small ;  
+    text-align: right;
+}
