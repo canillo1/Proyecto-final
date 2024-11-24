@@ -33,7 +33,6 @@ nav>li>ul{
     margin:1%;
     padding: 1%;
     font-weight: 400;
-
 }
 nav>li>ul:hover{
     background-color: rgb(70,137,102);
@@ -45,48 +44,12 @@ nav>li>ul:hover{
 }
 nav>li>ul>a{
     text-decoration:none;
-    color: black;
+    color:black;
 }
 nav>li>ul>a:hover{
     text-decoration:none;
     color: white;
 }
-nav>li>ul#creala{
-    color:none;
-    text-decoration:none;
-}
-main>h1{color: white;
-text-align: center;}
-main>div#piza1{
-    color: white;
-    border-radius: 23%;
-    text-align: center;
-    display: flex;
-    width: 100%;
-    animation-duration: 10s;
-    animation-name: moverse;
-}
-@keyframes moverse {
-    from{ margin-left 0%
-    } to{
-        margin-left:900px ;
-    }
-}
-main>div#piza1>div#primero{
-    justify-content: center;
-    border: 2px solid white;
-    font-size: 160%;
-    background-color: bisque;
-}
-main>div#piza1>div#proximamente{
-background-color: bisque;
-position: relative;
-width: 99%;
-font-size: 400%;
-text-align: center;
-font-style: italic;
-}
-
 footer{
     padding: 6px; 
     position: fixed;
