@@ -1,92 +1,3 @@
-html{
-    background-color: rgb(70, 131, 99);
-}
-header{
-    background-color: rgb(70, 132, 102);
-    font-family: 'Times New Roman', Times, serif;
-    font-size:170% ;
-    font-weight: 99%;
-    color: white;
-    justify-content: center;
-    text-align: center;
-    position: absolute;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-}
-header>quote{font-style: italic;}
-nav{
-    background-color: whitesmoke;
-    position: fixed;
-    top:14%;
-    right: 0%;
-    width: 100%;
-}
-nav>li{
-    font-size: 150%;
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: capitalize;
-    display:flex ;
-    justify-content: center;
-}
-nav>li>ul{
-    margin:1%;
-    padding: 1%;
-    font-weight: 400;
-}
-nav>li>ul:hover{
-    background-color: rgb(70,137,102);
-    justify-content: center;
-    font-weight: bold;
-    color: white;
-    cursor: default;
-    font-size: 170%;
-}
-nav>li>ul>a{
-    text-decoration:none;
-    color:black;
-}
-nav>li>ul>a:hover{
-    text-decoration:none;
-    color: white;
-}
-footer{
-    padding: 6px; 
-    position: fixed;
-    background-color: hwb(86,137,102);
-    color: white;
-    width: 98%;
-    justify-content: center;
-    bottom: 0%  ;
-    left: 1%;
-    height: 62px;
-
-}
-li#footer{
-    display: flex;
-    justify-content: space-between;
-
-}
-#copiright{
-    font-size: small;
-    text-align: left;
-}
-
-#fondo{
-    display: flex;
-    text-align: center;
-}
-main{
-    position: relative;
-    top:400px;
-}
-
-#abajo_delecha{
-    font-style: italic;
-    font-size: small ;  
-    text-align: right;
-}
-
 #todos_los_formularios{
     background-color:rgb(57, 220, 141);
     border:2px solid rgb(198, 204, 209);
@@ -144,4 +55,123 @@ input{
 :invalid{
     border-color: #ff7f7f;
     box-shadow: 3px 0px 0px 0px #ff7f7f;
+}
+/* Estilo general del fondo */
+html {
+    background-color: rgb(70, 132, 102);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: rgb(70, 132, 102);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 170%;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+}
+
+header quote {
+    font-style: italic;
+}
+
+/* navegar entre html */
+nav {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: fixed;
+    top:200px;
+}
+
+li#navegador {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+li#navegador ul {
+    margin: 0;
+    padding: 0;
+}
+
+li#navegador ul a {
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    padding: 13px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+li#navegador ul a:hover {
+    background-color: rgb(70, 137, 102);
+    color: white;
+}
+
+/*main*/
+main {
+    margin-top: 18%;
+    margin-left: 15%;
+    background-color: white;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/*foot*/
+footer {
+    padding: 6px;
+    position: fixed;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    height: 62px;
+    background-color: rgb(82, 132, 102);
+    display: flex;
+    align-items: center;
+}
+
+li#footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0 20px;
+}
+
+ul#copiright {
+    font-size: small;
+    text-align: left;
+}
+
+ul#fondo {
+    display: flex;
+    gap: 10px;
+}
+
+ul#fondo img {
+    width: 50px;
+    height: 50px;
+}
+
+ul#abajo_delecha {
+    font-style: italic;
+    font-size: small;
+    text-align: right;
 }
