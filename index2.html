@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LabMoc</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css2.css">
+    <link rel="stylesheet" href="css/css2.css">
 </head>
 <body>
     <header>
@@ -13,7 +13,7 @@
             <quote>"La mejor realidad"</quote>
     </header>
     <nav>
-        <li>    
+        <li id="navegador">    
             <ul id="inicio"><a href="index.html">Inicio</a></ul>
             <ul id="Creala"><a href="index2.html">Pide aquí</a></ul>
             <ul id="nosotros"><a href="index3.html">Visitanos</a></ul>
@@ -33,21 +33,20 @@
                 <legend>Cómo quieres tu piza/hamburguesa</legend>
                 <div id="formulario2">
                     <p>Tipo</p>
-                    <label>hamburguesa</label><input type="checkbox"> <label>piza</label><input type="checkbox">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    <label for="hamburguesa">hamburguesa</label><input type="checkbox" id="hamburguesa"> <label for="piza">piza</label><input type="checkbox" id="piza">
+                    
+                    <div id="ingredientes_hamburguesa">
+                        <p> Elige los ingredientes hamburguesa</p>
+                        <label>pan </label><input type="number" min="0" max="5"> <br>
+                        <label>carne</label><input type="number" min="0" max="5"> <br>
+                        <label>queso</label><input type="number" min="0" max="3"> 
+                    </div>
+                    <div id="ingredientes_piza">
+                        <p>Elige los ingredientes piza</p>
+                        <label>masa</label><input type="text" placeholder="Fina o Clásica"><br>
+                        <label>tomate</label><input type="checkbox">
+                        <label>queso</label><input type="checkbox">
+                    </div>
                 </div>
             </fieldset>
                 <input type="submit" placeholder="Enviar" id="boton">
@@ -59,9 +58,9 @@
                 ©2024 LabMoc
             </ul>
             <ul id="fondo">
-                <a href="https://www.youtube.com/watch?v=_u3kATMnelw"><img  src="ig.png" alt="instagram foto" width="50px" height="50px"/></a>
-                <a href="https://www.youtube.com/watch?v=fqSHfZpgJfQ"><img  src="tw.png" alt="twitter foto" width="50px" height="50px"/></a>
-                <a href="https://www.youtube.com/watch?v=JVYWTwkOsMo"><img  src="fb.png" alt="facebook foto" width="50px" height="50px"/></a>
+                <a href="https://www.youtube.com/watch?v=_u3kATMnelw"><img  src="image/ig.svg" alt="instagram foto" width="50px" height="50px"/></a>
+                <a href="https://www.youtube.com/watch?v=fqSHfZpgJfQ"><img  src="image/tw.svg" alt="twitter foto" width="50px" height="50px"/></a>
+                <a href="https://www.youtube.com/watch?v=JVYWTwkOsMo"><img  src="image/fb.svg" alt="facebook foto" width="50px" height="50px"/></a>
             </ul>
             <ul id="abajo_delecha">
                 C/Robles<br>

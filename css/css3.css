@@ -79,6 +79,7 @@ li#footer{
 main{
     position: relative;
     top:400px;
+    margin-left: 20vmax;
 }
 main>div#video_y_maps{
     display: flex;
