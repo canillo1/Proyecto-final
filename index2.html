@@ -32,20 +32,42 @@
             <fieldset>
                 <legend>Cómo quieres tu piza/hamburguesa</legend>
                 <div id="formulario2">
+                    <ol>
+                        <li>Primero pones tus datos personales.</li>
+                        <li>Pones lo que quieras pedir.</li>
+                        <li>Personalizas tu pedido.</li>
+                        <li>Elige entre recogerlo en tienda o que un repartidor te lo lleve.</li>
+                        <li>En caso de que elijas la opción del repartidor se cobrarán 2€ adicionales y deberás poner tu ubicación.</li>
+                    </ol>
                     <p>Tipo</p>
-                    <label for="hamburguesa">hamburguesa</label><input type="checkbox" id="hamburguesa"> <label for="piza">piza</label><input type="checkbox" id="piza">
+                    <label for="hamburguesa">Hamburguesa</label><input type="checkbox" id="hamburguesa"> <label for="piza">Pizza</label><input type="checkbox" id="piza"><label>Tacos de la casa</label><input type="checkbox">
                     
                     <div id="ingredientes_hamburguesa">
                         <p> Elige los ingredientes hamburguesa</p>
-                        <label>pan </label><input type="number" min="0" max="5"> <br>
+                        <label>pan </label><input type="checkbox"> <br>
                         <label>carne</label><input type="number" min="0" max="5"> <br>
-                        <label>queso</label><input type="number" min="0" max="3"> 
+                        <label>queso</label><input type="number" min="0" max="3"><br>
+                        <label>bacon crispy</label><input type="number" min="0" max="5"><br>
+                        <label>cebolla</label><input type="number" min="0" max="3"><br> 
+                        <label>lechuga</label><input type="checkbox">
+                        <label>pepinillo</label><input type="checkbox">
+
                     </div>
                     <div id="ingredientes_piza">
                         <p>Elige los ingredientes piza</p>
                         <label>masa</label><input type="text" placeholder="Fina o Clásica"><br>
                         <label>tomate</label><input type="checkbox">
                         <label>queso</label><input type="checkbox">
+                        <label>peperoni</label><input type="checkbox">
+                        <label>bacon</label><input type="checkbox">
+                        <label>cebolla caramelizada</label><input type="checkbox">
+                    </div>
+
+                    <div id="tipo_entrega">
+                        <p>Tipo de entrega</p>
+                        <input type="text" placeholder="Recogida o Entrega">
+                        <p>Ubicación</p>
+                        <input type="text" placeholder="C/xxxx Nºxxxx"
                     </div>
                 </div>
             </fieldset>

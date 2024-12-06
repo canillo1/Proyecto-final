@@ -1,94 +1,121 @@
-html{
-    background-color: rgb(70, 131, 99);
+html {
+    background:radial-gradient(circle at center , rgb(68, 130, 101), rgb(70,132,102));)
 }
-header{
-    background-color: rgb(70, 132, 102);
+
+/* Header */
+header {
+    background: linear-gradient(to bottom, rgb(48, 91, 70), rgb(70,132,102));
     font-family: 'Times New Roman', Times, serif;
-    font-size:170% ;
-    font-weight: 99%;
+    font-size: 170%;
     color: white;
-    justify-content: center;
     text-align: center;
-    position: absolute;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-}
-header>quote{font-style: italic;}
-nav{
-    background-color: whitesmoke;
     position: fixed;
-    top:14%;
-    right: 0%;
     width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
 }
-nav>li{
+
+header quote {
+    font-style: italic;
+}
+
+/* navegar entre html */
+nav {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 70px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    position: fixed;
+    top:200px;
+    margin-left: 35%;
+    border-radius:100px ;
+}
+
+li#navegador {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+li#navegador ul {
+    margin: 0;
+    padding: 0;
+}
+
+li#navegador ul a {
     font-size: 150%;
     font-family: 'Times New Roman', Times, serif;
     text-transform: capitalize;
-    display:flex ;
-    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 13px;
+    transition: background-color 0.3s, color 0.3s;
 }
-nav>li>ul{
-    margin:1%;
-    padding: 1%;
-    font-weight: 400;
-}
-nav>li>ul:hover{
-    background-color: rgb(70,137,102);
-    justify-content: center;
-    font-weight: bold;
-    color: white;
-    cursor: default;
-    font-size: 170%;
-}
-nav>li>ul>a{
-    text-decoration:none;
-    color:black;
-}
-nav>li>ul>a:hover{
-    text-decoration:none;
-    color: white;
-}
-footer{
-    padding: 6px; 
-    position: fixed;
-    background-color: hwb(86,137,102);
-    color: white;
-    width: 98%;
-    justify-content: center;
-    bottom: 0%  ;
-    left: 1%;
-    height: 62px;
 
+li#navegador ul a:hover {
+    background-color: rgb(70, 137, 102);
+    color: white;
+    box-shadow: 0px 10px 50px rgb(6, 178, 169);
 }
-li#footer{
+
+/*main*/
+main {
+    margin-top: 18%;
+    margin-left: 20vmax;
+    background-color: white;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgb(0, 0, 0, 0.1);
+}
+/*foot*/
+footer {
+    padding: 6px;
+    position: fixed;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    height: 62px;
+    background: linear-gradient(to top, black, rgb(48, 91, 70), rgb(70,132,102));
+    opacity: 50%;
+    display: flex;
+    align-items: center;
+}
+footer:hover{
+    opacity: 100%;
+}
+li#footer {
     display: flex;
     justify-content: space-between;
-
+    width: 100%;
+    align-items: center;
+    padding: 0 20px;
 }
-#copiright{
+
+ul#copiright {
     font-size: small;
     text-align: left;
 }
 
-#fondo{
+ul#fondo {
     display: flex;
-    text-align: center;
-}
-main{
-    position: relative;
-    top:400px;
-    margin-left: 20vmax;
-}
-main>div#video_y_maps{
-    display: flex;
-    justify-content: space-between;
-    
+    gap: 10px;
 }
 
-#abajo_delecha{
+ul#fondo img {
+    width: 50px;
+    height: 50px;
+}
+
+ul#abajo_delecha {
     font-style: italic;
-    font-size: small ;  
+    font-size: small;
     text-align: right;
 }

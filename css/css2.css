@@ -52,27 +52,27 @@ input{
     padding-left: 30px;
     padding-right: 30px;
     color: white;
-    background-color:rgb(57, 220, 141);
+    background-color:rgb(0, 0, 0);
     font-size:14;  
 }
-#boton:hover{color:#ff0000;}
+#boton:hover{color:#ff0000;
+
+}
 :required{
     border-color: #4aa248;
-    box-shadow: 3px 0px 0px 0px #4aa248;}
+    box-shadow: 6px 3px 0px 0px #4aa248;}
 :invalid{
     border-color: #ff7f7f;
-    box-shadow: 3px 0px 0px 0px #ff7f7f;
+    box-shadow: 6px 3px 1px 0px #ff7f7f;
 }
 /* Estilo general del fondo */
 html {
-    background-color: rgb(70, 132, 102);
-    margin: 0;
-    padding: 0;
+    background:radial-gradient(circle at center , rgb(68, 130, 101), rgb(70,132,102));)
 }
 
 /* Header */
 header {
-    background-color: rgb(70, 132, 102);
+    background: linear-gradient(to bottom, rgb(48, 91, 70), rgb(70,132,102));
     font-family: 'Times New Roman', Times, serif;
     font-size: 170%;
     color: white;
@@ -93,19 +93,21 @@ nav {
     background-color: rgb(255, 255, 255);
     position: fixed;
     top: 70px;
-    width: 100%;
+    width: 30%;
     display: flex;
     justify-content: center;
     padding: 10px 0;
     position: fixed;
     top:200px;
+    margin-left: 35%;
+    border-radius:100px ;
 }
 
 li#navegador {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 120px;
 }
 
 li#navegador ul {
@@ -120,13 +122,13 @@ li#navegador ul a {
     text-decoration: none;
     color: black;
     padding: 13px;
-    display: block;
     transition: background-color 0.3s, color 0.3s;
 }
 
 li#navegador ul a:hover {
     background-color: rgb(70, 137, 102);
     color: white;
+    box-shadow: 0px 10px 50px rgb(6, 178, 169);
 }
 
 /*main*/
@@ -149,11 +151,14 @@ footer {
     bottom: 0;
     left: 0;
     height: 62px;
-    background-color: rgb(82, 132, 102);
+    background: linear-gradient(to top, black, rgb(48, 91, 70), rgb(70,132,102));
+    opacity: 50%;
     display: flex;
     align-items: center;
 }
-
+footer:hover{
+    opacity: 100%;
+}
 li#footer {
     display: flex;
     justify-content: space-between;
