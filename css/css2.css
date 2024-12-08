@@ -91,13 +91,13 @@ nav {
     background-color: rgb(255, 255, 255);
     position: fixed;
     top: 70px;
-    width: 30%;
+    width: 35%;
     display: flex;
     justify-content: center;
     padding: 10px 0;
     position: fixed;
     top:200px;
-    margin-left: 35%;
+    margin-left: 33%;
     border-radius:100px ;
 }
 
