@@ -12,14 +12,12 @@
     font-weight: bold;
 }
 #formulario2{
-    justify-content: center;
-    font-size: 14px;
-    color:#6B121B;
-    font-size: 120%;
+    color:#ffffff;
+    font-size: 130%;
     font-weight: bold;;
 }
 fieldset{
-    border:1px dotted rgb(255, 255, 255);
+    border:1px dotted rgb(0, 0, 0);
     border-radius: 6px;
     margin-bottom: 15px;
     padding-top: 0px;
@@ -33,7 +31,7 @@ legend{
     font-size: 120%;
     margin-bottom: 16px;
     padding: 0;
-    margin-left: 5px;
+    margin-left:0%;
 }
 input{
     background-color: white;
@@ -133,8 +131,8 @@ li#navegador ul a:hover {
 
 /*main*/
 main {
-    margin-top: 18%;
-    margin-left: 20vmax;
+    margin-top: 11%;
+    margin-left: 24%;
     background-color: white;
     padding: 20px;
     max-width: 1200px;

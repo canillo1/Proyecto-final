@@ -66,8 +66,8 @@ li#navegador ul a:hover {
 
 /*main*/
 main {
-    margin-top: 18%;
-    margin-left: 22%;
+    margin-top: 12%;
+    margin-left: 24%;
     background-color: rgb(255, 255, 255);
     padding: 2%;
     max-width: 1200px;
@@ -108,8 +108,8 @@ main>p#especialidad_chef{
 }
 main>div>ul#ingredientes{
     gap: 10%;
-    font-size: 120%;
-    font-weight: 900;
+    font-size: 150%;
+    font-weight: bold;
 }
 div#pics{
     display: flex;
