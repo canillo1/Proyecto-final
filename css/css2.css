@@ -1,3 +1,81 @@
+/* Estilo general del fondo */
+html {
+    background:radial-gradient(circle at center , rgb(68, 130, 101), rgb(70,132,102));
+}
+
+/* Header */
+header {
+    background: linear-gradient(to bottom, rgb(48, 91, 70), rgb(70,132,102));
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 130%;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+}
+
+
+header quote {
+    font-style: italic;
+}
+
+/* navegar entre html */
+nav {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 70px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    position: fixed;
+    top:200px;
+    margin-left: 30vw;
+    border-radius:100px ;
+}
+
+
+li#navegador {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+li#navegador ul {
+    margin: 0;
+    padding: 0;
+}
+
+li#navegador ul a {
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    padding: 13px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+li#navegador ul a:hover {
+    background-color: rgb(70, 137, 102);
+    color: white;
+    box-shadow: 0px 10px 50px rgb(6, 178, 169);
+}
+/*main*/
+main {
+    margin-top: 11%;
+    margin-left: 20vw;
+    background-color: white;
+    padding: 20px;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 100px rgb(0, 0, 0);
+    margin-bottom: 10vh;
+}
 #todos_los_formularios{
     background-color:rgb(57, 220, 141);
     border:2px solid rgb(198, 204, 209);
@@ -16,6 +94,7 @@
     font-size: 130%;
     font-weight: bold;;
 }
+
 fieldset{
     border:1px dotted rgb(0, 0, 0);
     border-radius: 6px;
@@ -63,106 +142,28 @@ input{
     border-color: #ff7f7f;
     box-shadow: 6px 3px 1px 0px #ff7f7f;
 }
-/* Estilo general del fondo */
-html {
-    background:radial-gradient(circle at center , rgb(68, 130, 101), rgb(70,132,102));)
-}
 
-/* Header */
-header {
-    background: linear-gradient(to bottom, rgb(48, 91, 70), rgb(70,132,102));
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 170%;
-    color: white;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 10px 0;
-}
-
-header quote {
-    font-style: italic;
-}
-
-/* navegar entre html */
-nav {
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    top: 70px;
-    width: 35%;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-    position: fixed;
-    top:200px;
-    margin-left: 33%;
-    border-radius:100px ;
-}
-
-li#navegador {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 120px;
-}
-
-li#navegador ul {
-    margin: 0;
-    padding: 0;
-}
-
-li#navegador ul a {
-    font-size: 150%;
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: capitalize;
-    text-decoration: none;
-    color: black;
-    padding: 13px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-li#navegador ul a:hover {
-    background-color: rgb(70, 137, 102);
-    color: white;
-    box-shadow: 0px 10px 50px rgb(6, 178, 169);
-}
-
-/*main*/
-main {
-    margin-top: 11%;
-    margin-left: 24%;
-    background-color: white;
-    padding: 20px;
-    max-width: 1200px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
 /*foot*/
 footer {
-    padding: 6px;
     position: fixed;
+    padding: 6px;
     color: white;
     width: 100%;
     justify-content: space-between;
-    bottom: 0;
+    bottom:0;
     left: 0;
     height: 62px;
-    background: linear-gradient(to top, black, rgb(48, 91, 70), rgb(70,132,102));
-    opacity: 50%;
+    background-color: rgb(70,132,102);
     display: flex;
     align-items: center;
 }
-footer:hover{
-    opacity: 100%;
-}
+
 li#footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    padding: 0 20px;
+    padding: 6px;
 }
 
 ul#copiright {
@@ -176,8 +177,16 @@ ul#fondo {
 }
 
 ul#fondo img {
-    width: 50px;
+    width: 55px;
     height: 50px;
+    border-radius: 10px ;
+}
+li#footer ul#fondo a.A{
+    opacity:100%;
+    transition: 100ms ;
+}
+li#footer ul#fondo a.A:hover{
+    opacity: 50%;
 }
 
 ul#abajo_delecha {
