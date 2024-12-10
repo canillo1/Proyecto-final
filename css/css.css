@@ -69,8 +69,8 @@ li#navegador ul a:hover {
 
 main {
     margin-top: 12%;
-    width: 100vw;
-    margin-left: 20vw;
+    width: 90vw;
+    margin-left: 8vw;
     display: flex;
     flex-flow:column wrap;
     justify-self: center;
